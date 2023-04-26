@@ -1,0 +1,3 @@
+CREATE VIEW prodcut_categorisation AS
+SELECT * FROM Product p
+JOIN Inventory i ON p.Product_id=i.Store_id

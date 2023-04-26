@@ -1,0 +1,3 @@
+SELECT * FROM product p
+
+JOIN Inventory i ON p.product_id = i.store_id;
